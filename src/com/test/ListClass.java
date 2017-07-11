@@ -13,19 +13,19 @@ public class ListClass {
 		//异步的，线程不安全；增量为50%
 		ArrayList al = new ArrayList();
 		//同步的，线程安全；增量为一倍
-		Vector vc = new Vector<>();
+		Vector vc = new Vector();
 		
 		//有addFirst和addLast方法，可以pop和push
-		LinkedList ll = new LinkedList<>();
+		LinkedList ll = new LinkedList();
 		//没有addFirst和addLast, 有pop和push
-		Stack s = new Stack<>();
+		Stack s = new Stack();
 		
 		
 		//Map结构（字典类型）
 		//同步的，线程安全；不能放入null
-		Hashtable ht = new Hashtable<>();
+		Hashtable ht = new Hashtable();
 		//异步的，线程不安全；可以放入空值作为key或value
-		HashMap hs = new HashMap<>();
+		HashMap hs = new HashMap();
 		
 		
 		
