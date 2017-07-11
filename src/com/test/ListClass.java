@@ -8,28 +8,28 @@ public class ListClass {
 	
 	public static void main(String[] args) {
 		
-		//ÒÔÏÂËÄ¸ö¶¼ÊÇList½á¹¹µÄ
+		//ä»¥ä¸‹å››ä¸ªéƒ½æ˜¯Listç»“æ„çš„
 		
-		//Òì²½µÄ£¬Ïß³Ì²»°²È«£»ÔöÁ¿Îª50%
+		//å¼‚æ­¥çš„ï¼Œçº¿ç¨‹ä¸å®‰å…¨ï¼›å¢é‡ä¸º50%
 		ArrayList al = new ArrayList();
-		//Í¬²½µÄ£¬Ïß³Ì°²È«£»ÔöÁ¿ÎªÒ»±¶
+		//åŒæ­¥çš„ï¼Œçº¿ç¨‹å®‰å…¨ï¼›å¢é‡ä¸ºä¸€å€
 		Vector vc = new Vector<>();
 		
-		//ÓĞaddFirstºÍaddLast·½·¨£¬¿ÉÒÔpopºÍpush
+		//æœ‰addFirstå’ŒaddLastæ–¹æ³•ï¼Œå¯ä»¥popå’Œpush
 		LinkedList ll = new LinkedList<>();
-		//Ã»ÓĞaddFirstºÍaddLast, ÓĞpopºÍpush
+		//æ²¡æœ‰addFirstå’ŒaddLast, æœ‰popå’Œpush
 		Stack s = new Stack<>();
 		
 		
-		//Map½á¹¹£¨×ÖµäÀàĞÍ£©
-		//Í¬²½µÄ£¬Ïß³Ì°²È«£»²»ÄÜ·ÅÈënull
+		//Mapç»“æ„ï¼ˆå­—å…¸ç±»å‹ï¼‰
+		//åŒæ­¥çš„ï¼Œçº¿ç¨‹å®‰å…¨ï¼›ä¸èƒ½æ”¾å…¥null
 		Hashtable ht = new Hashtable<>();
-		//Òì²½µÄ£¬Ïß³Ì²»°²È«£»¿ÉÒÔ·ÅÈë¿ÕÖµ×÷Îªkey»òvalue
+		//å¼‚æ­¥çš„ï¼Œçº¿ç¨‹ä¸å®‰å…¨ï¼›å¯ä»¥æ”¾å…¥ç©ºå€¼ä½œä¸ºkeyæˆ–value
 		HashMap hs = new HashMap<>();
 		
 		
 		
-		System.out.println("´óĞ¡" + al.size());
+		System.out.println("å¤§å°" + al.size());
 		
 		String a = new String("abc");
 		String b = "abc";

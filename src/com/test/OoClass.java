@@ -20,9 +20,9 @@ class SubTest extends OoClass {
 	}
 
 }
-//Ïàµ±ÓÚ
+//ç›¸å½“äºŽ
 interface IUsb{
-	int a = 1;		//Ïàµ±ÓÚ finial static
+	int a = 1;		//ç›¸å½“äºŽ finial static
 	String aa = "";
  	void c();
 	public void aac();
