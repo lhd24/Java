@@ -1,4 +1,4 @@
-package com.threadtest;
+package com.lhd.thread;
 
 public class ThreadTest {
 

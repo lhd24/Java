@@ -2,7 +2,7 @@
  * 功能: File类的基本用法
  */
 
-package FileStreamLearn;
+package com.lhd.FileStream;
 
 import java.io.File;
 import java.io.IOException;
